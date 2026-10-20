@@ -3,7 +3,7 @@
 # запуск: ./scripts/energy_calc.sh O0 1   або   ./scripts/energy_calc.sh O3 20
 VER=$1
 REPEAT=${2:-1}
-OUT=results/energy_$VER
+OUT=power/energy_$VER
 T=$(cat ${OUT}_time.txt)
 
 # середня потужність CPU у спокої (мВт)

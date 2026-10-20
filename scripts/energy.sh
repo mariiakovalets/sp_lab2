@@ -6,7 +6,7 @@ set -e
 VER=$1
 ROUNDS=${2:-2000}
 REPEAT=${3:-1}
-OUT=results/energy_$VER
+OUT=power/energy_$VER
 now() { perl -MTime::HiRes=time -e 'printf "%.3f\n", time'; }
 
 # 1. система у спокої: 10 замірів по 1 с

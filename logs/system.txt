@@ -1,0 +1,18 @@
+== sw_vers
+ProductName:		macOS
+ProductVersion:		26.6.2
+BuildVersion:		25G83
+
+== uname -srm
+Darwin 25.6.0 arm64
+
+== sysctl
+hw.model: Mac15,6
+machdep.cpu.brand_string: Apple M3 Pro
+hw.ncpu: 12
+hw.perflevel0.physicalcpu: 6
+hw.perflevel1.physicalcpu: 6
+hw.memsize: 19327352832
+hw.pagesize: 16384
+hw.l1dcachesize: 65536
+hw.l2cachesize: 4194304
